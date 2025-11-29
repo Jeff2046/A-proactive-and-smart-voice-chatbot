@@ -1,0 +1,50 @@
+# 依赖目录
+venv/
+env/
+*.egg-info/
+__pycache__/
+
+# 日志文件
+logs/
+*.log
+
+# 模型文件（大型模型文件不建议直接上传到GitHub）
+models/*
+!models/.gitkeep
+
+# 配置文件（包含敏感信息）
+config/*.yaml
+!config/config.yaml.example
+
+# 临时文件
+temp_*.mp3
+*.tmp
+*.temp
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 数据文件（大型数据文件）
+data/*.json
+!data/.gitkeep
+
+# 转换和量化脚本生成的文件
+*.onnx
+*.xml
+*.bin
+*.ir
+
+# 缓存目录
+.cache/
+.huggingface/
+
+# 测试文件
+*.pyc
+.pytest_cache/

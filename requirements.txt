@@ -1,0 +1,11 @@
+openvino
+openvino-genai
+opencv-python
+numpy
+pyaudio
+SpeechRecognition
+gTTS
+pyyaml
+schedule
+requests
+pillow
